@@ -37,7 +37,7 @@ public class NewTest8 {
 		to.sendKeys("hyd");
 		//Thread.sleep(5000);
 		WebDriverWait wait=new WebDriverWait(driver,15);
-		wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(By.id("ui-id-2"),By.className("list")));
+		//wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(By.id("ui-id-2"),By.className("list")));
 		WebElement ul=driver.findElement(By.id("ui-id-2"));
 		List<WebElement> list=ul.findElements(By.tagName("li"));
 		
