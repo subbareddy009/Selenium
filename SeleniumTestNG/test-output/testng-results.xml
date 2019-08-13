@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10531" started-at="2019-04-02T10:53:43Z" finished-at="2019-04-02T10:53:54Z">
+  <suite name="Default suite" duration-ms="17611" started-at="2019-08-13T12:13:33Z" finished-at="2019-08-13T12:13:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10531" started-at="2019-04-02T10:53:43Z" finished-at="2019-04-02T10:53:54Z">
-      <class name="Selenium.MyLearning.FirstDemo">
-        <test-method status="PASS" signature="test()[pri:0, instance:Selenium.MyLearning.FirstDemo@6043cd28]" name="test" duration-ms="10490" started-at="2019-04-02T10:53:43Z" finished-at="2019-04-02T10:53:54Z">
+    <test name="Default test" duration-ms="17611" started-at="2019-08-13T12:13:33Z" finished-at="2019-08-13T12:13:51Z">
+      <class name="com.test.Reports">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.Reports@48140564]" name="beforeTest" is-config="true" duration-ms="5846" started-at="2019-08-13T17:43:33Z" finished-at="2019-08-13T17:43:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- Selenium.MyLearning.FirstDemo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testFail()[pri:0, instance:com.test.Reports@48140564]" name="testFail" duration-ms="11165" started-at="2019-08-13T17:43:39Z" finished-at="2019-08-13T17:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFail -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.Reports@48140564]" name="afterMethod" is-config="true" duration-ms="24" started-at="2019-08-13T17:43:51Z" finished-at="2019-08-13T17:43:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFail status=SUCCESS method=Reports.testFail()[pri:0, instance:com.test.Reports@48140564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.Reports@48140564]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-13T17:43:51Z" finished-at="2019-08-13T17:43:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPass status=SUCCESS method=Reports.testPass()[pri:0, instance:com.test.Reports@48140564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testPass()[pri:0, instance:com.test.Reports@48140564]" name="testPass" duration-ms="0" started-at="2019-08-13T17:43:51Z" finished-at="2019-08-13T17:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.Reports@48140564]" name="afterTest" is-config="true" duration-ms="547" started-at="2019-08-13T17:43:51Z" finished-at="2019-08-13T17:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.Reports -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

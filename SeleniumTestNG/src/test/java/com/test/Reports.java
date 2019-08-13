@@ -45,7 +45,7 @@ public class Reports {
 		//reports.createTest()
 
 		reports.setSystemInfo("Host Name","Localhost");
-		reports.setSystemInfo("Username","aswani.kumar.avilala");
+		reports.setSystemInfo("Username","nani");
 
 
 		htmlreporter.config().setReportName("Selenium Test NG Report");
@@ -93,9 +93,10 @@ public class Reports {
 		test=reports.createTest("test fail");
 		driver.get("http://demowebshop.tricentis.com/login");
 		driver.manage().window().maximize();
-		driver.findElement(By.id("Email")).sendKeys("askmail@email.com");
-		driver.findElement(By.id("Passw")).sendKeys("abc123");
-		Assert.assertTrue(false);
+		driver.findElement(By.id("Email")).sendKeys("subbanani1@gmail.com");
+		driver.findElement(By.id("Password")).sendKeys("123456789");
+		Assert.assertTrue(true);
+		//Assert.assertTrue(false);
 	}
 
 }
