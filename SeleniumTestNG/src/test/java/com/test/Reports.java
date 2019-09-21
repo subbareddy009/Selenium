@@ -49,7 +49,9 @@ public class Reports {
 
 
 		htmlreporter.config().setReportName("Selenium Test NG Report");
-		htmlreporter.config().setTheme(Theme.DARK);
+		//htmlreporter.config().setTheme(Theme.DARK); //total black theme
+		htmlreporter.config().setTheme(Theme.STANDARD);//White Theme
+		
 	}
 	@AfterTest
 	public void afterTest()
