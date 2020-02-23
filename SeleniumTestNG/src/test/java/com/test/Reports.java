@@ -36,6 +36,7 @@ public class Reports {
 	@BeforeTest
 	public void beforeTest()
 	{
+		
 		driver=new LaunchDriver().getPgDriver("chrome");
 		htmlreporter=new ExtentHtmlReporter(System.getProperty
 				("user.dir")+"/extent-reports/"+new SimpleDateFormat("dd-MM-yyyy-hh-mm-ss-ms").
